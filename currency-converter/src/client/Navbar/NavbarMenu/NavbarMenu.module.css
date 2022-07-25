@@ -1,0 +1,38 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link {
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 32px;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(25, 115, 120, 0.7);
+    border-radius: 20px;
+  }
+
+  .link:hover {
+    background-color: rgba(25, 115, 120, 0.9);
+  }
+  
+  .activeLink {
+    background-color: #000;
+  }
+  
+  .mainTitle {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgba(25, 115, 120, 0.7);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
